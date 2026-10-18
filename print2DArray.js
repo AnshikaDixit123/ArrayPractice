@@ -5,6 +5,7 @@ const arr = [
     [16,17,18,19,20]
     ];
 
+//This function prints a 2D array.
 function printArray (arr) {
 
     for(let row = 0; row < arr.length; row++) {
@@ -14,7 +15,7 @@ function printArray (arr) {
         for(let col = 0; col < brr.length; col++) {
             res += (arr[row][col] + " ");
         }
-        
+
         res += "|"
         console.log(res);
     }
