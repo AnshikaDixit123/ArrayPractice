@@ -1,4 +1,3 @@
-
 const arr = [
     [1,2,3,4,5],
     [6,7,8,9,10],
@@ -6,7 +5,7 @@ const arr = [
     [16,17,18,19,20]
     ];
 
-
+//This function prints array...
 function printArray (arr) {
 
     for(let row = 0; row < arr.length; row++) {
